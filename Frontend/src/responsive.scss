@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 @mixin sm {
   @media (max-width: 738px) {
     @content;
@@ -14,20 +13,3 @@
     @content;
   }
 }
-=======
-@mixin sm{
-    @media (max-width: 738px) {
-        @content;
-    }
-}
-@mixin md{
-    @media (max-width: 1024px) {
-        @content;
-    }
-}
-@mixin lg{
-    @media (max-width: 1366px) {
-        @content;
-    }
-}
->>>>>>> 6585651d25873645494b923273cc5e72f1189dbc
