@@ -4,6 +4,10 @@
   display: flex;
   height: 100%;
 
+  @include lg {
+    height: 100vh;
+  }
+
   .textContainer {
     flex: 3;
 
@@ -15,6 +19,14 @@
       gap: 50px;
       height: 100%;
 
+      @include md {
+        padding: 0;
+      }
+
+      @include sm {
+        justify-content: flex-start;
+      }
+
       .title {
         font-size: 64px;
         @include lg {
@@ -25,6 +37,10 @@
       .boxes {
         display: flex;
         justify-content: space-between;
+
+        @include sm {
+          display: none;
+        }
 
         h1 {
           font-size: 36px;
